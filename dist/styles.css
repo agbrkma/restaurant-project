@@ -1,0 +1,33 @@
+body {
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+
+#restaurant-img {
+    width: 80vw;
+}
+
+.navBtn {
+    width: 20vw;
+    height: 10vh;
+}
+
+#menuDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 5vw;
+    color: beige;
+    font-size: 1.5rem;
+    font-weight: 400;
+    height: 80vh;
+    background-image: url('../restaurant-img.jpg');
+    text-align: center;
+
+}
+
+ul {
+    list-style: none;
+}

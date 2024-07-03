@@ -1,3 +1,7 @@
+import initLoad from "./pageLoad";
 
-alert('The webpack is running')
+initLoad()
+
+
+
 
