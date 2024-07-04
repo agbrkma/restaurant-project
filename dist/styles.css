@@ -1,11 +1,16 @@
 body {
     text-align: center;
     background-color: antiquewhite;
+    font-size: 3rem;
 }
 
+button {
+    font-size:  2.5rem;
+}
 
 #restaurant-img {
     width: 80vw;
+    height: 75vh;
 }
 
 .navBtn {
@@ -25,9 +30,28 @@ body {
     height: 80vh;
     background-image: url('../restaurant-img.jpg');
     text-align: center;
+    font-size: 3rem;
+}
 
+#aboutDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 5vw;
+    color: beige;
+    font-size: 3rem;
+    font-weight: 400;
+    background-image: url('../restaurant-img.jpg');
+    height: 80vh;
+    
 }
 
 ul {
     list-style: none;
+}
+
+#commentBox {
+    width: 30vw;
+    height: 20vh;
 }
